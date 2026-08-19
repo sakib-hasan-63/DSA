@@ -1,7 +1,7 @@
 // [1,1,2,3,3,3,4,5,5,6,7,7,8,9,]
 // Given array and find its unique value
 
-// output 9
+// output 9 
 
 //Condition 
 // i=0 j=1
