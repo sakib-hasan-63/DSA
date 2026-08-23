@@ -56,3 +56,14 @@ function countEven(arr){
 }
 
 console.log(countEven([12,3,44,55,66,64,43,334,22]));
+
+// Reverse Array
+
+function reverseArray(arr){
+    let result = [];
+    for(let i=arr.length-1; i>=0; i--){
+        result.push(arr[i]);
+    }
+    return result;
+}
+console.log(reverseArray([12,3,44,55,66,64,43,334,22]));
