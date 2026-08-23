@@ -16,7 +16,7 @@ function findMax(arr){
     }
     return max;
 }
-console.log(findMax([12,3,44,55,66,64,43,334,,22]));
+console.log(findMax([12,3,44,55,66,64,43,334,22]));
 
 // Find Min
 
@@ -29,5 +29,16 @@ function findMin(arr){
     }
     return min;
 }
-console.log(findMin([12,3,44,55,66,64,43,334,,22]));
+console.log(findMin([12,3,44,55,66,64,43,334,22]));
 
+// Find Sum
+
+
+function arraySum(arr){
+    let sum=0;
+    for(let i=0; i<arr.length; i++){
+        sum= sum + arr[i];
+    }
+    return sum;
+}
+console.log(arraySum([12,3,44,55,66,64,43,334,22]));
