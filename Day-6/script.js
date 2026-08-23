@@ -17,3 +17,17 @@ function findMax(arr){
     return max;
 }
 console.log(findMax([12,3,44,55,66,64,43,334,,22]));
+
+// Find Min
+
+function findMin(arr){
+    let min=arr[0];
+    for(let i=1; i<arr.length; i++){
+        if(arr[i] < min){
+            min=arr[i];
+        }
+    }
+    return min;
+}
+console.log(findMin([12,3,44,55,66,64,43,334,,22]));
+
