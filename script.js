@@ -11,3 +11,6 @@ function linearSearch(arr,target){
     return -1;
 }
 console.log(linearSearch([21,34,53,4,55,22,333],55));
+
+//Binary Search
+
