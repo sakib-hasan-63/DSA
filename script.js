@@ -1,3 +1,13 @@
 // Searching
 
 //Linear Search
+
+function linearSearch(arr,target){
+    for(let i=0; i<arr.length; i++){
+        if(arr[i] === target){
+            return i;
+        }
+    }
+    return -1;
+}
+console.log(linearSearch([21,34,53,4,55,22,333],55));
