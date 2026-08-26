@@ -58,4 +58,4 @@ function selectionSort(arr){
     }
     return arr;
 }
-console.log(selectionSort([5, 3, 8, 1, 2]));
+console.log(selectionSort([5, 3, 8, 1, 2, 38]));
