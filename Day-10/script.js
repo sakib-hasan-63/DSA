@@ -29,3 +29,5 @@ function palindromeString(str){
     return str === reverse;
 }
 console.log(palindromeString("madam"));
+
+// Count Charcter 
