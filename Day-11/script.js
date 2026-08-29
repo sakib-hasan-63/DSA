@@ -21,3 +21,18 @@ console.log(isAnagram("listen", "silent"));
 console.log(isAnagram("listen", "silenntt"));
 
 // First Unique Char
+
+function firstUniqueChar(str){
+    let count = {};
+    for(let char of str){
+        count[char] = (count[char] || 0) + 1;
+    }
+    for(let char of str){
+        if(count[char] === 1){
+            return char;
+        }
+    }
+    return null;
+}
+
+console.log(firstUniqueChar("programmingp"));
