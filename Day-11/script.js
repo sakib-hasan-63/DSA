@@ -19,3 +19,5 @@ function isAnagram(str1,str2){
 
 console.log(isAnagram("listen", "silent"));
 console.log(isAnagram("listen", "silenntt"));
+
+// First Unique Char
