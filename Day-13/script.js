@@ -13,3 +13,5 @@ function fibonacci(num){
 console.log(fibonacci(6));
 
 // Time  → O(2^n)
+
+// Space → O(n)
