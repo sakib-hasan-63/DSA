@@ -11,3 +11,5 @@ function fibonacci(num){
     return fibonacci(num - 1) + fibonacci(num - 2);
 }
 console.log(fibonacci(6));
+
+// Time  → O(2^n)
