@@ -29,8 +29,8 @@ function binarySearchRecursive(arr, target, left, right) {
     );
 }
 
-const arr = [10, 20, 30, 40, 50, 60, 70];
+const arr = [10, 20, 30, 40, 50, 60, 70, 80, 90];
 
 console.log(
-    binarySearchRecursive(arr, 50, 0, arr.length - 1)
+    binarySearchRecursive(arr, 60, 0, arr.length - 1)
 );
